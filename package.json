@@ -1,0 +1,34 @@
+{
+  "name": "@telemetry-js/collector-net",
+  "version": "0.0.5",
+  "description": "Collect net metrics (tcp, udp, ip and icmp)",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "dependencies": {
+    "@telemetry-js/match-metric-names": "^0.0.3",
+    "@telemetry-js/metric": "^0.1.2"
+  },
+  "devDependencies": {
+    "hallmark": "^3.1.0",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/collector-net",
+  "bugs": "https://github.com/telemetry-js/collector-net/issues",
+  "homepage": "https://github.com/telemetry-js/collector-net",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
